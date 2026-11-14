@@ -1614,10 +1614,19 @@ blockquote small {
         font-size: 8px
     }
 
-    .enable-grid {
+/*    .enable-grid {
         grid-template-columns: 1fr 1fr;
         gap: 8px
-    }
+    }*/
+    .enable-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px
+}
+
+/* Только карточки программы на мобильных */
+.program-projects {
+    grid-template-columns: 1fr;
+}
 
     .enable-grid article {
         padding: 14px 12px;
@@ -1753,3 +1762,7 @@ blockquote small {
         transition: none !important
     }
 }
+
+
+
+
